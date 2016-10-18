@@ -1,0 +1,176 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; 
+  padding: 0;
+  margin: 0;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,sans-serif;
+    font-size: .85rem;
+    line-height: 1.5;
+    color: #3d4145;
+}
+ul, ol {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+li {
+	margin: 0;
+}
+p {margin: 0;}
+.fl {float: left;}
+.fr {float: right;}
+a {color: #3ba485;text-decoration: none;}
+.fix{display:inline-block;}
+.fix{display:block;}
+.fix:after{content:""; display:block; height:0px;clear:both; visibility:hidden;}
+
+
+/* ******************************** */
+.tabNav_ul {padding: .75rem 0 0 0; text-align: center;}
+.tabNav_ul li {font-size: 1.6rem;color: #3ba485;}
+.telInput {margin: 2rem 0;}
+.telInput .tel_number {    
+	border: 1px solid #ccc;
+    height: 2.4rem;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    font-size: 1.25rem;
+    color: #3ba485;
+    border-radius: .3rem;}
+.type_box li {    
+	width: 6.1rem;
+    float: left;
+    color: #3ba485;
+    border: 1px solid #3ba485;
+    text-align: center;
+    margin: 0.5rem;
+    padding: .5rem;
+    border-radius: .3rem;
+}
+.type_box li .num {
+	font-size: 1.15rem;
+	padding-bottom: .5rem;
+	margin-bottom: .5rem;
+	border-bottom: .15rem dotted #3ba485;
+}
+
+.type_box li:hover,
+.type_box li.on {
+	background-color: #3ba485;
+	color: #fff;
+}
+.type_box li:hover .num,
+.type_box li.on .num {
+	border-color: #fff;
+}
+.main_text {
+	font-size: .9rem;
+	padding: 2rem 1.75px;
+	margin-bottom: 3rem;
+}
+
+.more_btn {
+	font-size: .9rem;
+	display: block;
+	padding-left: 1.75px;
+	margin-top: 1rem;
+}
+
+.infor_box {padding: 1rem;}
+.m_text {text-align: center;line-height: 1.25rem;}
+
+
+.buy-btn {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    line-height: 3rem;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 1.25rem;
+    color: #fff !important;
+    background-color: #3ba485;
+}
+.pay_order_pop {
+	background: rgba(255,255,255,0.7);
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	display: none;
+}
+
+.pay_order_pop ul {
+	margin-top: 10rem;
+	padding: 0 2rem;
+}
+.pay_order_pop ul li {
+	padding:  .75rem 1rem ;
+	font-size: 1.25rem;
+	border-bottom: .12rem solid #797979;
+}
+.totalPrice {
+	color: #e8680f;
+}
+.pay_order_pop ul li img {
+	vertical-align: middle;
+    width: 3.2rem;
+    margin-right: 2rem;
+}
+.isIcon {
+	width: 2rem;
+	float: right;
+	margin-top: .6rem;
+	height: 2rem;
+	background: url(../images/radio_icon.png) no-repeat 0 0;
+	background-size: 100% 100%;
+}
+.pay_order_pop ul li.on .isIcon {
+	
+	background: url(../images/radio_icon_on.png) no-repeat 0 0;
+	background-size: 100% 100%;
+}
+
+.submit_btn{
+    position: absolute;
+    width: 100%;
+    line-height: 3rem;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 1.25rem;
+    color: #fff !important;
+    background-color: #3ba485;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
